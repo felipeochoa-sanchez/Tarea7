@@ -2,7 +2,7 @@ from tkinter import ttk
 from tkinter import *
 
 import sqlite3
-
+# HolaVersion2 
 class biblioteca:
 
     def __init__(self, ventana):
@@ -37,7 +37,7 @@ class biblioteca:
         self.desc.focus()
         self.desc.grid(row = 10, column = 1)
 
-        Label(pest, text = 'Año de publicación ').grid(row = 12, column = 0)
+        Label(pest, text = 'Año de publicación2 ').grid(row = 12, column = 0)
         self.anio = Entry(pest)
         self.anio.focus()
         self.anio.grid(row = 12, column = 1)
